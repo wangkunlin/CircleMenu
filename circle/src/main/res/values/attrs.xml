@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleMenuLayout">
+        <attr name="firstPosition">
+            <enum name="right" value="0" />
+            <enum name="bottom" value="90" />
+            <enum name="left" value="180" />
+            <enum name="top" value="270" />
+        </attr>
+        <attr name="itemRotate" format="boolean" />
+        <attr name="speed" format="integer" />
+        <attr name="fly" format="boolean" />
+    </declare-styleable>
+</resources>
